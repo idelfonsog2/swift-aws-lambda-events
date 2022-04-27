@@ -113,11 +113,5 @@ extension APIGatewayV2Request: Sendable {}
 extension APIGatewayV2Request.Context: Sendable {}
 extension APIGatewayV2Request.Context.HTTP: Sendable {}
 extension APIGatewayV2Request.Context.Authorizer: Sendable {}
-
-extension APIGatewayV2ProxyRequest: Sendable {}
-extension APIGatewayV2ProxyRequest.Context: Sendable {}
-extension APIGatewayV2ProxyRequest.Context.HTTP: Sendable {}
-extension APIGatewayV2ProxyRequest.Context.Authorizer: Sendable {}
-
 extension APIGatewayV2Response: Sendable {}
 #endif
